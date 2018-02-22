@@ -1,4 +1,5 @@
 <?php
+// hello bil
 $file = fopen('readme.md', 'a');
 $date = date('j F Y h:i:s A');
 fwrite($file, "- ". $date . "\n");
